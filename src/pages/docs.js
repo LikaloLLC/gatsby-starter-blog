@@ -12,7 +12,7 @@ const DocumentationPage = ({ data, location }) => {
     return (
         <Layout location={location} title={siteTitle}>
             <link media="all" href="https://lib.docsie.io/current/styles/docsie.css" rel="stylesheet" />
-            <script src="https://lib.docsie.io/current/service.js" dataDocsie={`docsie_pk_key:${DOCSIE_DEPLOYMENT_KEY}`} />
+            <script src="https://lib.docsie.io/current/service.js" data-docsie={`docsie_pk_key:${DOCSIE_DEPLOYMENT_KEY}`} />
         </Layout>
     )
 }

@@ -26,6 +26,9 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Bio />
       <ol style={{ listStyle: `none` }}>
+        <li>
+          <a href="/docs">Docs</a>
+        </li>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 

@@ -1,0 +1,7 @@
+.global-wrapper {
+    max-width: 1200px;
+}
+
+body:not(.-docsie-page-top) .docsie-nav, body:not(.-docsie-page-top) .docsie-secondary-nav {
+    top: 0!important
+}
